@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 4rem;
+}
+p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #A9A9A9;
+}
+@media screen and (max-width: 1024px){
+
+    p{
+       text-align: center;
+       font-size: 1.5rem;
+       
+    }
+    .intro-image{
+      display: none;
+    }
+    }
+
+    ul{
+        margin-left: 750px;
+    }
+
+    .nav-tools:hover{
+        color: #CCCCFF;
+    }
+#intro{
+    margin: -20px;
+    color: white;
+    background-color: #CCCCFF;
+    ;
+}
+.nav-image{
+    height: 50px;
+    width: 40px;
+    padding-left: 350px;
+}
+.navbar{
+    background-color: #f4f4fa;
+    border-radius: 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 20px 27px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+.int{
+    margin: -10px;
+    padding: 10% 50% 10% 12%;
+}
+.intro-image{
+    position: absolute;
+    left: 60%;
+    bottom: 24%;
+    right: 25%;
+    float: right;
+    height: 400px;
+    width: 300px;
+}
+.btn{
+    height: 45px;
+    width: 130px;
+    font-size: 1rem;
+    padding: 8px 16px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color:  rgb(124, 153, 205);
+    border: 0;
+    color: white;
+}
+.btn:hover{
+    fill:  blue;
+    box-shadow: 0 0 10px rgb(124, 153, 205);
+    transform: translateY(-8px);
+    background-color: white;
+    border: 1px;
+    color: black;
+}
+.mouse{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    display: flex;
+}
+.mouse-wheel{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: auto;
+    animation: move-wheel 1s;
+}
+@keyframes move-wheel {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+}
+.about{
+    text-align: center;
+    color: black;
+    padding: 7% 15%;
+}
+
+#service{
+    background-color: #CCCCFF;
+    color: #fff;
+    padding: 7% 15%;
+}
+.point{
+    padding-top: 2%;
+}
+#footer{
+    background-color:  #fff;
+    padding: 50px 0 50px;
+}
+
+a{
+    color: #CCCCFF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.copy{
+ color: black;
+ font-size: 0.65rem;
+ padding: 20px;
+}
